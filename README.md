@@ -1,54 +1,40 @@
-Proyecto de Reservas
-Este proyecto implementa un sistema de reservas donde se registran datos de quién realiza la reserva, código de la reserva y la fecha.
+# Título del Proyecto
 
-Instalación
+Breve descripción o resumen del proyecto.
 
-Instala las dependencias del proyecto utilizando npm:
+## Tabla de contenidos
 
-Copy code
-npm install
-Crea un archivo ".env" en la raíz del proyecto y configura las variables de entorno necesarias.
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
 
-Configura la base de datos MySQL:
+## Instalación
 
-Crea una base de datos llamada "reservadb" en tu servidor MySQL.
-Importa el archivo SQL adjunto "reservadb.sql" para crear las tablas correspondientes.
-Ejecución
-Una vez completada la instalación, puedes ejecutar el proyecto de la siguiente manera:
+Pasos para instalar el proyecto:
 
-Inicia el servidor en modo de desarrollo:
+1. Clona el repositorio.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. ...
 
-arduino
-Copy code
-npm run dev
-Abre tu navegador web y visita la siguiente URL:
+## Uso
 
-arduino
-Copy code
-http://localhost:3000
-Ahora puedes ver y gestionar las reservas a través de la interfaz web.
+Explica cómo utilizar el proyecto y proporciona ejemplos o instrucciones adicionales:
 
-Contribución
-Si deseas contribuir a este proyecto, sigue los pasos a continuación:
+1. Configura las variables de entorno en el archivo `.env`.
+2. Ejecuta `npm start` para iniciar el servidor.
+3. Abre tu navegador y ve a `http://localhost:3000`.
+4. ...
 
-Crea una rama con un nombre descriptivo:
+## Contribución
 
-css
-Copy code
-git checkout -b nombre-de-la-rama
-Realiza los cambios y mejoras en el proyecto.
+Si deseas contribuir al proyecto, sigue estos pasos:
 
-Realiza un commit con un mensaje claro y descriptivo:
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios.
+3. Realiza tus modificaciones y mejoras.
+4. Envía una solicitud de extracción.
 
-sql
-Copy code
-git commit -m "Mensaje del commit"
-Sincroniza tu rama con el repositorio remoto:
+## Licencia
 
-perl
-Copy code
-git push origin nombre-de-la-rama
-Abre una solicitud de extracción en GitHub y describe los cambios que has realizado.
-
-Autor
-[Nombre del autor]
+Este proyecto está licenciado bajo la [
