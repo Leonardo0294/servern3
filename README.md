@@ -1,40 +1,39 @@
-# Título del Proyecto
+# Pasos para instalar y ejecutar el proyecto creado para el examen
 
-Breve descripción o resumen del proyecto.
+Instalaciones necesarias:
+Dentro del directorio del proyecto ejecutar:
 
-## Tabla de contenidos
+```bash
+ Ejecuta `npm install` para instalar las dependencias.
+```
 
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
+> > ### Requiere de una base de datos MySQL.
 
-## Instalación
+Configura las variables de entorno en el archivo `.env`.
 
-Pasos para instalar el proyecto:
+Variables de entorno:
 
-1. Clona el repositorio.
-2. Ejecuta `npm install` para instalar las dependencias.
-3. ...
+```bash
+PORT=
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+DB_HOST=
+DB_PORT=
+DB_DIALECT=
+SECRET_KEY=clave-secreta-de-desarrollo
+```
 
-## Uso
+Ejecutar el proyecto en modo desarrollo:
 
-Explica cómo utilizar el proyecto y proporciona ejemplos o instrucciones adicionales:
+```bash
+npm run dev
+```
 
-1. Configura las variables de entorno en el archivo `.env`.
-2. Ejecuta `npm start` para iniciar el servidor.
-3. Abre tu navegador y ve a `http://localhost:3000`.
-4. ...
+Ejecutar el proyecto en modo producción:
 
-## Contribución
+```bash
+npm run start
+```
 
-Si deseas contribuir al proyecto, sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tus cambios.
-3. Realiza tus modificaciones y mejoras.
-4. Envía una solicitud de extracción.
-
-## Licencia
-
-Este proyecto está licenciado bajo la [
+![Express + EJS + MySQL](https://www.bing.com/images/search?view=detailV2&ccid=V%2faHPxdu&id=59C1FB62008CBDBAECE00F2839150FCBC2610BFF&thid=OIP.V_aHPxduW8VFMkX33Awb5AHaD_&mediaurl=https%3a%2f%2fwww.restapiexample.com%2fwp-content%2fuploads%2f2017%2f09%2fnodejs-mysql-express.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.57f6873f176e5bc5453245f7dc0c1be4%3frik%3d%252fwthwssPFTkoDw%26pid%3dImgRaw%26r%3d0&exph=328&expw=609&q=mysql+node+js+express&simid=608047093377802044&FORM=IRPRST&ck=C079FB97868787F032428C1F86252982&selectedIndex=0&ajaxhist=0&ajaxserp=0)
