@@ -33,7 +33,5 @@ npm run start
 
 
 
-![Parcial](https://www.google.com/imgres?imgurl=https%3A%2F%2Fdev.mysql.com%2Fblog-archive%2Fmysqlhighavailability%2Fwp-content%2Fuploads%2F2015%2F12%2FNode_Cluster_logo.png&tbnid=JpPXGtCBty-XJM&vet=12ahUKEwjP2LfJgvH_AhVrOrkGHdypDvwQMygFegUIARDGAQ..i&imgrefurl=https%3A%2F%2Fdev.mysql.com%2Fblog-archive%2Fmysql-cluster-with-node-js%2F&docid=ISHrIeaKV3F6-M&w=454&h=340&q=mysql%20node%20ejs&client=firefox-b-d&ved=2ahUKEwjP2LfJgvH_AhVrOrkGHdypDvwQMygFegUIARDGAQ)
-
 
 

@@ -16,6 +16,9 @@ const {
 // ==========================================
 
 // Obtener todas las reservas
+
+
+
 router.get("/", renderReservas);
 // Formulario para crear una reserva
 router.get("/crear-reserva", renderFormularioReservas);
@@ -39,3 +42,4 @@ router.put("/api/:id", updateReservas);
 router.delete("/api/:id", deleteReservas);
 
 module.exports = router;
+
